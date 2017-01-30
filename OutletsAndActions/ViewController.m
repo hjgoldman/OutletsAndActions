@@ -30,7 +30,7 @@
     NSString *firstName = self.firstNameTextField.text;
     NSString *lastName = self.lastNameTextField.text;
     
-    NSString *welcomeMessage = [NSString stringWithFormat:@"thats right, your name is %@ %@!",firstName,lastName];
+    NSString *welcomeMessage = [NSString stringWithFormat:@"that's right, your name is %@ %@!",firstName,lastName];
     
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Message" message:welcomeMessage preferredStyle:UIAlertControllerStyleAlert];
     
